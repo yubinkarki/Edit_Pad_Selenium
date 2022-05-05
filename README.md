@@ -1,5 +1,5 @@
 # Edit_Pad_Selenium
-Program to open Firefox browser using selenium and navigate to the editpad website.
+Program to open Firefox browser using selenium and navigate to the [editpad](https://www.editpad.org/) website and auto type sentences from the given json file.
 
 #### Commands to get started:  
 - *sudo apt install python3.8-venv* ➜ To install venv package globally.  
@@ -18,4 +18,6 @@ To deactivate:
 **Note:**
 > Change VSCode interpreter to the version of Python in the venv.  
 > Do not use sudo command to install packages after activating venv using pip.  
-> Firefox webdriver i.e. *[geckodriver](https://github.com/mozilla/geckodriver/releases)* is needed in the project folder to launch an instance of the browser.
+> Firefox webdriver i.e. *[geckodriver](https://github.com/mozilla/geckodriver/releases)* is needed in the project folder to launch an instance of the browser.  
+  
+For **'geckodriver' executable needs to be in PATH** error ➜ *sudo cp geckodriver /usr/local/bin* to copy the driver file.
