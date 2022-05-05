@@ -18,7 +18,7 @@ class Get_URL(unittest.TestCase):
         ok = driver.find_element(By.NAME, "text")
         ok.clear()
 
-        with open('testdata.json') as f:
+        with open('testdata.json', "r", encoding="utf8") as f:
             data = json.load(f)
             start = objectpath.Tree(data)
             result = tuple(start.execute('$..value'))  # Gets data from the "value" key.
