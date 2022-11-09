@@ -1,6 +1,6 @@
 Program to open Firefox browser using selenium and navigate to the *[editpad](https://www.editpad.org/)* website and auto type sentences from the given json file.  
 
-### Commands to get started:  
+Commands to get started:  
 - `sudo apt install python3.8-venv` ➜ To install venv package globally.  
 - `python3 -m venv ~/directory_of_project/` ➜ To create a virtual environment in the specified directory.
 - `sudo apt install python3-pip` ➜ To install pip package manager globally.
